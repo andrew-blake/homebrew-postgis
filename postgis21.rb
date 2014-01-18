@@ -33,7 +33,7 @@ class Postgis21 < Formula
   def install
     # Follow the PostgreSQL linked keg back to the active Postgres installation
     # as it is common for people to avoid upgrading Postgres.
-    postgres_realpath = Formula.factory('postgresql-9.3').opt_prefix.realpath
+    #postgres_realpath = Formula.factory('postgresql-9.3').opt_prefix.realpath
 
     ENV.deparallelize
 
